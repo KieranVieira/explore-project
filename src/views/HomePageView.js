@@ -1,19 +1,29 @@
 import React, { Component } from 'react'
 import styled from 'styled-components';
+import { Parallax } from 'react-scroll-parallax';
 
-import BackgroundTemp from '../assets/background-img.jpg';
+import background from '../assets/background.png';
+import midground from '../assets/midground.png';
+import foreground from '../assets/foreground.png';
 
 import HeaderComponent from '../components/HeaderComponent.js';
 import Navigation from '../components/Navigation.js';
 
 const HomeContainer = styled.div`
-  background-color: black;
   img{
     position: absolute;
     top: -80px;
-    z-index: 1;
     width: 100%;
     height: auto;
+  }
+  .back-img{
+    z-index: 2;
+  }
+  .mid-img{
+    z-index: 3;
+  }
+  .front-img{
+    z-index: 4;    
   }
 `;
 
@@ -23,7 +33,18 @@ export class HomePageView extends Component {
       <HomeContainer>
         <Navigation/>
         <HeaderComponent />
-        <img src={BackgroundTemp} draggable={false}/>
+        <Parallax className="back-img" y={['-200px', '0px']}>
+            <img src={background} />
+        </Parallax>
+        <Parallax className="mid-img" y={['-200px', '0px']}>
+            <img src={midground} />
+        </Parallax>
+        <Parallax className="front-img" y={['-200px', '0px']}>
+            <img src={foreground} />
+        </Parallax>
+        {/* <img src={background} draggable={false} className="back-img" alt=""/>
+        <img src={midground} draggable={false} className="mid-img" alt=""/>
+        <img src={foreground} draggable={false} className="front-img" alt=""/> */}
       </HomeContainer>
     )
   }

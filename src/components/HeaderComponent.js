@@ -10,7 +10,7 @@ const HeaderContainer = styled.div`
     align-items: center;
     justify-content: space-between;
     top: 0;
-    z-index: 2;
+    z-index: 5;
     h1{
         color: white;
         font-size: 8rem;

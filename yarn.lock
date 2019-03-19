@@ -7706,7 +7706,7 @@ prompts@^0.1.9:
     kleur "^2.0.1"
     sisteransi "^0.1.1"
 
-prop-types@^15.5.4, prop-types@^15.6.1:
+prop-types@^15.5.10, prop-types@^15.5.4, prop-types@^15.6.1:
   version "15.7.2"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.7.2.tgz#52c41e75b8c87e72b9d9360e0206b99dcbffa6c5"
   integrity sha512-8QQikdH7//R2vurIJSutZ1smHYTcLpRWEOlHnzcWHmBYrOGUysKwSsrC89BCiFj3CbrfJ/nXFdJepOVrY1GCHQ==
@@ -8031,6 +8031,13 @@ react-scripts@2.1.8:
     workbox-webpack-plugin "3.6.3"
   optionalDependencies:
     fsevents "1.2.4"
+
+react-scroll-parallax@^2.0.2:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/react-scroll-parallax/-/react-scroll-parallax-2.0.2.tgz#c9f66b6cfcde677b1968ab6858f260e21a8d4a7a"
+  integrity sha512-wmpPF1u+S9bXPmhR0Yc/LpMp3zXD1w7mZqU7nicKf2GBtnbmUGgc3hAPw/QJUFESvEy540+kQJ97HMZsv1X3QA==
+  dependencies:
+    prop-types "^15.5.10"
 
 react@^16.8.4:
   version "16.8.4"
