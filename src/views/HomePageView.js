@@ -42,9 +42,6 @@ export class HomePageView extends Component {
         <Parallax className="front-img" y={['-200px', '0px']}>
             <img src={foreground} />
         </Parallax>
-        {/* <img src={background} draggable={false} className="back-img" alt=""/>
-        <img src={midground} draggable={false} className="mid-img" alt=""/>
-        <img src={foreground} draggable={false} className="front-img" alt=""/> */}
       </HomeContainer>
     )
   }
