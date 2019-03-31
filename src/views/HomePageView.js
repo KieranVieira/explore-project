@@ -34,13 +34,13 @@ export class HomePageView extends Component {
         <Navigation/>
         <HeaderComponent />
         <Parallax className="back-img" y={['-200px', '0px']}>
-            <img src={background} />
+            <img src={background} alt=""/>
         </Parallax>
         <Parallax className="mid-img" y={['-200px', '0px']}>
-            <img src={midground} />
+            <img src={midground} alt=""/>
         </Parallax>
         <Parallax className="front-img" y={['-200px', '0px']}>
-            <img src={foreground} />
+            <img src={foreground} alt=""/>
         </Parallax>
       </HomeContainer>
     )
