@@ -6,7 +6,7 @@ const Navigation = () => {
   return (
     <NavContainer>
       <h1>Ready Co.</h1>
-      <a href="https://kieranvieira.com">Newsletter</a>
+      <a href="https://kieranvieira.com" target="_blank" rel="noopener noreferrer">Newsletter</a>
     </NavContainer>
   )
 }
