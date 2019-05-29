@@ -2,7 +2,7 @@ import React from 'react';
 
 import { NavContainer } from './navigationStyles.js';
 
-export default Navigation = () => {
+const Navigation = () => {
   return (
     <NavContainer>
       <h1>Ready Co.</h1>
@@ -10,3 +10,5 @@ export default Navigation = () => {
     </NavContainer>
   )
 }
+
+export default Navigation

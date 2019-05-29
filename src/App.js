@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Route } from 'react-router-dom';
 
-import HomePageView from './views/HomePageView.js';
+import HomePageView from './views/HomePage';
 
 class App extends Component {
   render() {
