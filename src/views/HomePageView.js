@@ -6,8 +6,8 @@ import background from '../assets/background.png';
 import midground from '../assets/midground.png';
 import foreground from '../assets/foreground.png';
 
-import HeaderComponent from '../components/HeaderComponent.js';
-import Navigation from '../components/Navigation.js';
+import HeaderComponent from '../components/Header';
+import Navigation from '../components/Navigation';
 
 const HomeContainer = styled.div`
   img{

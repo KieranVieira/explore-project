@@ -21,9 +21,11 @@ const HeaderContainer = styled.div`
         display: flex;
         justify-content: space-between;
         align-items: baseline;
+        margin-bottom: 10px;
         h2{
-            margin: 0 15px;
-            font-weight: 100;
+            font-size: 1rem;
+            margin: 0 25px;
+            font-weight: 400;
             color: white;
             span{
                 font-size: 4rem;
@@ -34,9 +36,10 @@ const HeaderContainer = styled.div`
             display: flex;
             justify-content: flex-end;
             width: 250px;
+            margin-right: 10px;
             a{
                 font-size: 1rem;
-                font-weight: 100;
+                font-weight: 400;
                 margin-right: 25px;
                 color: white;
                 text-decoration: none;
